@@ -21,7 +21,7 @@ jobs:
       - run: pip install wheel pip -U
       - run: pip install -r requirements.txt -U
       - run: pip install duckdb --pre -U
-      # - run: gh repo clone duckdb/duckdb
+      - run: gh repo clone duckdb/duckdb
       - uses: taiki-e/install-action@v2
         with:
           tool: ripgrep
